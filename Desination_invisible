@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Destination_invisible : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        GameObject.Find("Destination").transform.localScale = new Vector3(0, 0, 0);
+        GameObject.Find("Destination (1)").transform.localScale = new Vector3(0, 0, 0);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
